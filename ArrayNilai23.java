@@ -9,8 +9,10 @@ for (int i = 0; i < nilaiAkhir.length; i++) {
 }
 for (int i = 0; i < 10; i++) {
     if (nilaiAkhir[i] > 70) {
-                System.out.println("Mahasiswa ke-" + i + " lulus!");
-}
+                System.out.println("Mahasiswa ke-" + i + " lulus dengan nilai " + nilaiAkhir[i]);
+            } else {
+                System.out.println("Mahasiswa ke-" + i + " tidak lulus dengan nilai " + nilaiAkhir[i]);
     }
+}
 }
 }
